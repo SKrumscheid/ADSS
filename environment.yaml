@@ -1,0 +1,13 @@
+name: stratification-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - sphinx
+  - sphinx_rtd_theme
+  - pip
+  - pip:
+    - -e .
