@@ -41,7 +41,7 @@ def _rand_simplex(N: int, d: int, C: np.array, z0: np.array) -> np.array:
     Args:
         N: the number of samples to generate
         d: the dimension of the samples
-        z0: ...
+        z0: the first vertex
 
     Returns:
         A NumPy array containing the random values.
@@ -299,7 +299,7 @@ class Simplex(Stratum):
                  simplices: np.ndarray, vertices: np.ndarray,
                  samples: np.ndarray, f_samples: np.ndarray, *,
                  rand_gen: np.random.Generator) -> None:
-        """Initializes an instance of Simplex.
+        """Initialize an instance of Simplex.
 
         Args:
             p: the probability/size of the domain.
