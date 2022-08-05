@@ -55,7 +55,7 @@ The package comes with a Sphinx documentation that can be generated as described
 ## Citing
 If you benefit from this package, please cite:
 ```
-@articlePetterssonKrumscheid22,
+@article{PetterssonKrumscheid22,
 author = {P. Pettersson and S. Krumscheid},
 title = {Adaptive stratified sampling for non-smooth problems},
 journal = {International Journal for Uncertainty Quantification},
