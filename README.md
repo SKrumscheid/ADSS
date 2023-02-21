@@ -65,3 +65,6 @@ number  = {6},
 pages   = {71--99}
 }
 ```
+You can also refer to the code via the persistent identifier:
+
+[![DOI](https://zenodo.org/badge/466178846.svg)](https://zenodo.org/badge/latestdoi/466178846)
